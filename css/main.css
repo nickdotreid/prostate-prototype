@@ -24,8 +24,32 @@ em{
 
 
 
+.men{
+	background-repeat: no-repeat;
+	background-position: top left;
+	display:block;
+}
 
+.men.stuck{
+	position:fixed;
+}
 
+.men.thousand{
+	background-repeat: repeat-y;
+	background-image:url('../img/1000-men.png');
+	width:450px;
+	height:388px;
+}
+
+.men.hundred{
+	background-repeat: repeat-y;
+	background-image:url('../img/1000-men.png');
+	width:450px;
+	height:510px;	
+}
+.men.hundred.orange{
+	background-image:url('../img/1000-men-orange.png');
+}
 
 
 
