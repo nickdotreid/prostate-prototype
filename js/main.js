@@ -34,6 +34,11 @@ $(document).ready(function(){
 			'top': $(".section-first",screen).offset().top,
 		});
 		$(".section-first", screen).appendTo(sticky);
+
+		$(".scroll",screen).click(function(){
+			event.preventDefault();
+			$.scrollTo("#second-section-stick-point",500);
+		});
 		
 
 
