@@ -21,6 +21,14 @@ em{
 	display: block;
 }
 
+.orange{
+	color:#ff6600;
+}
+
+.red{
+	color:#c00019;
+}
+
 .stuck{
 	position:fixed;
 }
