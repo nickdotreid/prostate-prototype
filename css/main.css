@@ -8,7 +8,7 @@
 
 
 body{
-	font-size:30px;
+	font-size:28px;
 }
 
 p{
@@ -21,16 +21,15 @@ em{
 	display: block;
 }
 
+.stuck{
+	position:fixed;
+}
 
 
 .men{
 	background-repeat: no-repeat;
 	background-position: top left;
 	display:block;
-}
-
-.men.stuck{
-	position:fixed;
 }
 
 .men.thousand{
@@ -48,6 +47,19 @@ em{
 }
 .men.hundred.orange{
 	background-image:url('../img/1000-men-orange.png');
+}
+.men.hundred.orange.red{
+	background-image:url('../img/1000-men-orange-red.png');
+	background-position: bottom left;
+}
+
+.screen{
+	position: relative;
+}
+
+.screen .btn-next{
+	position: absolute;
+	bottom: 0px;
 }
 
 
