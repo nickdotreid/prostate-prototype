@@ -29,10 +29,20 @@ em{
 	color:#c00019;
 }
 
+.container{
+	display:block;
+}
+
+#men img{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+
 .stuck{
 	position:fixed;
 }
-
 
 .men{
 	background-repeat: no-repeat;
